@@ -2,9 +2,15 @@
   "RULE_VERSION":"20180724",
   "name": "company-news-list",
   "apiDependencies": [
-  {
-    "name": "info-news"
-  }
-]
+	  {
+	    "name": "info-news",
+	    "LINK":[
+	    	{
+	    		"name":"detail",
+	    		"title":"查看详情"
+	    	}
+	    ]
+	  }
+	]
 }
 
